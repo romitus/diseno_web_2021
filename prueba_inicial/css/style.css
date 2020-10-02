@@ -21,8 +21,11 @@ main div.container #contentIdiomas {
     margin-left: auto;
 }
 main div.container #contentIdiomas p b {
-
     margin-left: 300px;
+}
+main div.container #datosInteres p {
+    margin-top: 2%;
+    font-weight: bold;
 }
 
 
