@@ -1,0 +1,29 @@
+main h1{
+    text-align: center;
+}
+main div.container h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+main div.container h4 {
+    text-decoration: underline;
+}
+main div.container #contentFormacion {
+    width: 70%;
+    margin-left: auto;
+}
+main div.container #contentExperiencia {
+    width: 70%;
+    margin-left: auto;
+}
+main div.container #contentIdiomas {
+    width: 70%;
+    margin-left: auto;
+}
+main div.container #contentIdiomas p b {
+
+    margin-left: 300px;
+}
+
+
+
