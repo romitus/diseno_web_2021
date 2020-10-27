@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+main h1 {
+  text-align: center;
+  display: block;
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#31A08B;
+  }
+
+  .nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: justify;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 2px;
+  }
+
+  .exercise1{
+    position: absolute;
+    left: 20%;
+    background-color: #31A08B;
+    width: 60%;
+    height: 4%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+  }
+
+  .exercise1 a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .exercise2{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    background-color: #31A08B;
+    width: 60%;
+    height: 4%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+  }
+  .exercise2 a{
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .exercise3{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    background-color: #31A08B;
+    width: 60%;
+    height: 4%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+  }
+  .exercise3 a{
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .exercise4{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    background-color: #31A08B;
+    width: 60%;
+    height: 4%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+  }
+  .exercise4 a{
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .exercise5{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    background-color: #31A08B;
+    width: 60%;
+    height: 4%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+  }
+  .exercise5 a{
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    color: white;
+    text-decoration: none;
+  }
