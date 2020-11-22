@@ -1,28 +1,40 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #11998e;  
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
 
+}
 main h1 {
   text-align: center;
   display: block;
+  color: #ffffff;
 }
 
 .nav {
-    overflow: hidden;
-    background-color:#31A08B;
-  }
+  overflow: hidden;
+  background-color:#31A08B;
+  height: 54px;
+}
 
-  .nav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: justify;
-    padding: 8px 8px;
-    text-decoration: none;
-    font-size: 10px;
-    margin-top: 2px;
-  }
+.nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-left: 10px;
+  font-weight: bold;
+  background-color: #17957C;
+  width: 84px;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+}
   img{
     width: 70%;
     margin-left: 16%;
@@ -30,4 +42,18 @@ main h1 {
 
   p{
     margin-left: 4%;
+    color: #ffffff;
    }
+   input{
+    display: none;
+    position: relative;
+    display: inline;
+    margin-top: 16px;
+    margin-left: 40%;
+  }
+   @media screen and (min-width: 1700px) {
+    input{
+      margin-left: 40%;
+      width: 600px;
+    }
+  }
