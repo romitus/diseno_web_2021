@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main h1 {
+  text-align: center;
+  display: block;
+}
+
+.nav {
+  overflow: hidden;
+  background-color:#31A08B;
+  height: 54px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-left: 10px;
+  font-weight: bold;
+  background-color: #17957C;
+  width: 84px;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+}
+h1{
+  color: #ffffff;
+}
+  
+  table{
+    position: absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    left: 5%;
+    background-color: #17957C;
+  }
+
+  td, th {
+    border: 1px solid #22bf87;
+    text-align: left;
+    padding: 8px;
+    color: white;
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  tr:nth-child(even) {
+    background-color: #22bf87;
+  }
+  input{
+    display: none;
+    position: relative;
+    display: inline;
+    margin-top: 16px;
+    margin-left: 40%;
+  }
+  @media screen and (min-width: 1700px) {
+    input{
+      margin-left: 40%;
+      width: 600px;
+    }

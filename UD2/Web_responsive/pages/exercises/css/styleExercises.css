@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main h1 {
+text-align: center;
+display: block;
+color: #ffffff;
+}
+
+.nav {
+  overflow: hidden;
+  background-color:#31A08B;
+  height: 54px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-left: 10px;
+  font-weight: bold;
+  background-color: #17957C;
+  width: 84px;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+}
+
+.exercise1{
+  position: absolute;
+  left: 20%;
+  background-color: #17957C;
+  width: 60%;
+  height: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.exercise1 a{
+  position: absolute;
+  color:#ffffff;
+  text-decoration: none;
+  top: 33%;
+  left: 20%;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.exercise2{
+  position: absolute;
+  left: 20%;
+  top: 24%;
+  background-color: #17957C;
+  width: 60%;
+  height: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+.exercise2 a{
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+  top: 33%;
+  left: 30%;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.exercise3{
+  position: absolute;
+  left: 20%;
+  top: 33%;
+  background-color: #17957C;
+  width: 60%;
+  height: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+.exercise3 a{
+  position: absolute;
+  left: 27%;
+  top: 30%;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.exercise4{
+  position: absolute;
+  left: 20%;
+  top: 42%;
+  background-color: #17957C;
+  width: 60%;
+  height: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+.exercise4 a{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.exercise5{
+  position: absolute;
+  left: 20%;
+  top: 42%;
+  background-color: #17957C;
+  width: 60%;
+  height: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+.exercise5 a{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+input{
+  display: none;
+  position: relative;
+  display: inline;
+  margin-top: 16px;
+  margin-left: 40%;
+}
+@media screen and (min-width: 600px) {
+  .nav a:hover{
+    background-color: #57B8A5;
+  }
+  
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .wrapper div{
+    width: 60%;
+    height: 100px;
+    position: unset;
+    margin-top: 3%;
+    
+  }
+
+  .wrapper div a{
+    color: white;
+    position: relative;
+    top:  37px;
+    left: 0%;
+  }
+  .exercise1{
+    animation-name: reverse;
+    animation-duration: 1s;
+  }
+  .exercise1:hover{
+    background-color: #57B8A5;
+    animation-name: animHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .exercise2{
+    animation-name: reverse;
+    animation-duration: 1s;
+  }
+  .exercise2:hover{
+    background-color: #57B8A5;
+    animation-name: animHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .exercise3{
+    animation-name: reverse;
+    animation-duration: 1s;
+  }
+  .exercise3:hover{
+    background-color: #57B8A5;
+    animation-name: animHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .exercise4{
+    animation-name: reverse;
+    animation-duration: 1s;
+  }
+  .exercise4:hover{
+    background-color: #57B8A5;
+    animation-name: animHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .exercise5{
+    animation-name: reverse;
+    animation-duration: 1s;
+  }
+  .exercise5:hover{
+    background-color: #57B8A5;
+    animation-name: animHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes animHover {
+    from {height: 100px;}
+    to {height: 110px;}
+  }
+  @keyframes reverse { 
+    from {height: 110px;} 
+    to {height: 100px;} 
+}
+}
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+  }
+  .exercise1{
+    grid-column: 2 / 32;
+    grid-row: 1;
+  }
+  .exercise2{
+    grid-row: 2;
+    grid-column: 2 / 32;
+  }
+  .exercise3{
+    grid-row: 3;
+    grid-column: 2 / 32;
+  }
+  .exercise4{
+    grid-row: 4;
+    grid-column: 2 / 32;
+  }
+  .exercise5{
+    grid-row: 5;
+    grid-column: 2 / 32;
+  }
+}
+@media screen and (min-width: 1700px) {
+  input{
+    margin-left: 40%;
+    width: 600px;
+  }
+}
