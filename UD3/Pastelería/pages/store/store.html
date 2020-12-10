@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Caramel et chocolat</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </head>
+  <header>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="../../img/logo/logo1.png" width="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="store.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../form/form.html">Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a id="popoverLearn" class="btn" href="#" data-content="Próximamente" rel="popover" data-placement="right" >Aprende repostería</a>
+              
+            </li>
+          </ul>
+          <div class="btn-nav right"><a class="btn btn-light btn-small navbar-btn"  id="darkMode" onclick="functionñ();"><img src="https://static.thenounproject.com/png/1664849-200.png" alt="Image not found"></a>
+        </div>
+      </nav>
+  </header>
+  <body>
+    <!------------------------------------------------------------>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Tienda</h1>      
+        <p>Del horno a tu casa!</p>
+      </div>
+    </div>
+<!--------------------------------------------------------------------->
+<div class="container">    
+  <div style="width:auto;" class="row justify-content-center" id="cartas">
+    <div class="col-9 col-sm-6 col-lg-4">
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage" data-content="Ingredientes: Azucar, Vainilla, Leche, Levadura, Harina." rel="popover" data-placement="right" src="../../img/cupcakes.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cupcakes</h5>
+          <p class="card-text">Porque son algo más que magdalenas</p>
+          <a href="../form/form.html" class="btn btn-success">3,99€</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-sm-6 col-lg-4"> 
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage1" data-content="Ingredientes: Azucar, Vainilla, Leche, Levadura, Nata" rel="popover" data-placement="right" src="../../img/merengue.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Merengue</h5>
+          <p class="card-text">Un delicioso dulce de Nata, que es irresistible.</p>
+          <a href="../form/form.html" class="btn btn-success">4,99€</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-sm-6 col-lg-4"> 
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage2" data-content="Ingredientes: Azucar, Vainilla, Leche, Harina de maiz." rel="popover" data-placement="left" src="../../img/flanParisino.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Flan Parisino</h5>
+          <p class="card-text">Una mezcla de flan y tarta francesa de vainilla</p>
+          <a href="../form/form.html" class="btn btn-success">6,50€</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div style="width:auto;" class="row justify-content-center" id="cartas">
+    <div class="col-9 col-sm-6 col-lg-4">
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage3" data-content="Ingredientes: Azucar, Vainilla, Leche, Levadura, Harina." rel="popover" data-placement="right" src="../../img/Donuts.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Donuts</h5>
+          <p class="card-text">Esas rosquillas fueron diseñadas para ser deliciosas.</p>
+          <a href="../form/form.html" class="btn btn-success">1,99€</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-sm-6 col-lg-4"> 
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage4" data-content="Ingredientes: Azucar, Leche, Levadura, Harina." rel="popover" data-placement="right" src="../../img/macarrones.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Macarrones Dulces</h5>
+          <p class="card-text">Macarrones Dulces, Italianos y deliciosos</p>
+          <a href="../form/form.html" class="btn btn-success">3,99€</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-sm-6 col-lg-4"> 
+      <div class="card mb-3" style="max-width: 20rem;">
+        <img id="popoverimage5" data-content="Ingredientes: Azucar, Vainilla, Leche, Levadura, Harina, Chocolate." rel="popover" data-placement="left" src="../../img/tarta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tartas</h5>
+          <p class="card-text">Hay tartas de todos los gusto y colores, a todos les gustan.</p>
+          <a href="../form/form.html" class="btn btn-success">9,99€</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+  
+  </body>
+  <footer class="container-fluid text-right">
+    <p>Autor: Carlos Muñoz Iglesias</p>
+  </footer>
+  <script src="../../example.js"></script>
+</html>
