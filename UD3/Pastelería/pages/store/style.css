@@ -85,6 +85,10 @@ h1{
     background-color: #9D725B;
 }
 
+.badge{
+    color: white;
+}
+
 .jumbotron h1{
     font-size: 4rem;
     text-shadow: 1px 1px #000000;

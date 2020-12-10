@@ -76,6 +76,11 @@ footer {
     background-color: white;
 }
 
+.badge{
+    color: white;
+}
+
+
 @media (max-width: 600px) {
     .carousel-caption {
       display: none; 
