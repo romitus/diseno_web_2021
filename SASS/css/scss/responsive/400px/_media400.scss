@@ -1,0 +1,17 @@
+/// 
+/// @param {*} max-width [400px] 
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  .navbar form{
+      float: right;
+      display: none;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+}

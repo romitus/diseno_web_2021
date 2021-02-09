@@ -1,0 +1,27 @@
+/* VARIABLES */
+
+$rightColumBG: #f1f1f1;
+
+$cardBG: white;
+
+$headerh1: white;
+$headerh1Size: 50px;
+$headerp: white;
+$imageDarkness: 0.4;
+@if $headerh1 == white and $headerp == white {
+    $imageDarkness: 0.2;
+}
+
+$navbarColorBG: #333;
+
+$navbarColorA: white;
+$navbarColorDropdown: white;
+$navbarColorDropdownA: white;
+$navbarColorForm: #f2f2f2;
+$navbarColorHover: rgb(0, 119, 255);
+
+$footerColor: black;
+$footerColorA: white;
+$footerColorP:white;
+
+/* VARIABLES */

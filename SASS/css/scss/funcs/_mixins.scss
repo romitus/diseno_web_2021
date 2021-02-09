@@ -1,0 +1,9 @@
+@mixin about-margin{
+  margin-left: 40px;
+}
+
+@mixin about-size{
+  @include about-margin;
+    height: 50%;
+    width: 50%;
+}
