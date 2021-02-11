@@ -1,3 +1,8 @@
+/// @author Carlos Munoz Iglesias 
+/// @name mixins
+
+
+
 @mixin about-margin{
   margin-left: 40px;
 }
@@ -6,4 +11,15 @@
   @include about-margin;
     height: 50%;
     width: 50%;
+}
+
+@mixin prefix($property, $value, $prefixes) {
+  @each $prefix in $prefixes {
+    -#{$prefix}-#{$property}: $value;
+  }
+  #{$property}: $value;
+}
+
+.gray {
+  @include prefix(filter, grayscale(50%), moz webkit);
 }

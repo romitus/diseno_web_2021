@@ -1,4 +1,6 @@
-  /* Header/Blog Title */
+/// @author Carlos Munoz Iglesias 
+/// @name banner
+/* Header/Blog Title */
   .header {
     padding: 30px;
     text-align: center;
@@ -9,14 +11,14 @@
     ),
     url(https://2.bp.blogspot.com/-5gzAAXID1Aw/USoxixR5-wI/AAAAAAAAGrU/bGkNVCZ9NVs/s1600/sky_photo6.jpg);
     width: 100%;
-    
+    // @link https://2.bp.blogspot.com/-5gzAAXID1Aw/USoxixR5-wI/AAAAAAAAGrU/bGkNVCZ9NVs/s1600/sky_photo6.jpg 
   }
-  
+  /* Header H1/properties */
   .header h1 {
     font-size: $headerh1Size;
     color: $headerh1;
   }
-
+  /* Header p/properties */
   .header p {
     color: $headerp;
   }

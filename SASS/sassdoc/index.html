@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>SassDoc</title><link rel="stylesheet" href="assets/css/main.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="SassDoc - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="Release the docs!"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">SassDoc</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-function"><a href="#undefined-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="pow" data-type="function"><a href="#undefined-function-pow">pow</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-css"><a href="#undefined-css">css</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="functions" data-type="css"><a href="#undefined-css-functions">functions</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="general" data-type="css"><a href="#undefined-css-general">general</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="banner" data-type="css"><a href="#undefined-css-banner">banner</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="footer" data-type="css"><a href="#undefined-css-footer">footer</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="navbar" data-type="css"><a href="#undefined-css-navbar">navbar</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="sections" data-type="css"><a href="#undefined-css-sections">sections</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="media400px" data-type="css"><a href="#undefined-css-media400px">media400px</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="media600px" data-type="css"><a href="#undefined-css-media600px">media600px</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="media800px" data-type="css"><a href="#undefined-css-media800px">media800px</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="mixins" data-type="mixin"><a href="#undefined-mixin-mixins">mixins</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="undefined-function-pow"><h3 class="item__heading"><a class="item__name" href="#function-pow">pow</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function pow() { 
+  $result: 1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+ }" data-collapsed="@function pow() { ... }"><code>@function pow() { ... }</code></pre></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Example</h3><div class="item__example example"><pre class="example__code language-scss"><code>base 2 exponent 4 = 16</code></pre></div></section></section><section class="main__sub-section" id="undefined-css"><h2 class="main__heading--secondary"><div class="container">css</div></h2><section class="main__item container item" id="undefined-css-functions"><h3 class="item__heading"><a class="item__name" href="#css-functions">functions</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>functions {
+  $result: 1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+}</code>" data-collapsed="functions { ... }"><code>functions { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-general"><h3 class="item__heading"><a class="item__name" href="#css-general">general</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>general {
+  box-sizing: border-box;
+}</code>" data-collapsed="general { ... }"><code>general { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-banner"><h3 class="item__heading"><a class="item__name" href="#css-banner">banner</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>banner {
+  padding: 30px;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, $imageDarkness),
+      rgba(0, 0, 0, $imageDarkness)
+    ),
+    url(https://2.bp.blogspot.com/-5gzAAXID1Aw/USoxixR5-wI/AAAAAAAAGrU/bGkNVCZ9NVs/s1600/sky_photo6.jpg);
+    width: 100%;
+    // @link https://2.bp.blogspot.com/-5gzAAXID1Aw/USoxixR5-wI/AAAAAAAAGrU/bGkNVCZ9NVs/s1600/sky_photo6.jpg
+}</code>" data-collapsed="banner { ... }"><code>banner { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-footer"><h3 class="item__heading"><a class="item__name" href="#css-footer">footer</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>footer {
+  padding: 20px;
+    text-align: center;
+    background: $footerColor;
+    margin-top: 20px;
+}</code>" data-collapsed="footer { ... }"><code>footer { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-navbar"><h3 class="item__heading"><a class="item__name" href="#css-navbar">navbar</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>navbar {
+  overflow: hidden;
+  background-color: $navbarColorBG;
+}</code>" data-collapsed="navbar { ... }"><code>navbar { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-sections"><h3 class="item__heading"><a class="item__name" href="#css-sections">sections</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>sections {
+  float: left;
+  width: 75%;
+}</code>" data-collapsed="sections { ... }"><code>sections { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-media400px"><h3 class="item__heading"><a class="item__name" href="#css-media400px">media400px</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>media400px {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  .navbar form{
+      float: right;
+      display: none;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+}</code>" data-collapsed="media400px { ... }"><code>media400px { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-media600px"><h3 class="item__heading"><a class="item__name" href="#css-media600px">media600px</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>media600px {
+  .navbar a {
+      float: none;
+      width: 100%;
+    }
+  .navbar form{
+      float: right;
+      display: none;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    #map{
+      display: none;
+    }
+}</code>" data-collapsed="media600px { ... }"><code>media600px { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section><section class="main__item container item" id="undefined-css-media800px"><h3 class="item__heading"><a class="item__name" href="#css-media800px">media800px</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>media800px {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .navbar form{
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    #map{
+      display: none;
+    }
+}</code>" data-collapsed="media800px { ... }"><code>media800px { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section></section><section class="main__sub-section" id="undefined-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="undefined-mixin-mixins"><h3 class="item__heading"><a class="item__name" href="#mixin-mixins">mixins</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin mixins() { 
+  margin-left: 40px;
+ }" data-collapsed="@mixin mixins() { ... }"><code>@mixin mixins() { ... }</code></pre></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Carlos Munoz Iglesias</p></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --> <span class="project-info__name">SassDoc</span><!-- Version --><!-- License --></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

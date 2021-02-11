@@ -1,19 +1,20 @@
-  /* Footer */
+/// @author Carlos Munoz Iglesias 
+/// @name footer
+ 
+ /* Footer */
   .footer {
     padding: 20px;
     text-align: center;
     background: $footerColor;
     margin-top: 20px;
-  }
+    a {
+      font-size: x-small;
+      text-decoration: none;
+      color:$footerColorA;
+    }
+    p {
+      font-size: x-small;
+      color: $footerColorP;
+    }
 
-  .footer a {
-    font-size: x-small;
-    text-decoration: none;
-    color:$footerColorA;
   }
-
-  .footer p {
-    font-size: x-small;
-    color: $footerColorP;
-  }
-  

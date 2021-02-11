@@ -1,25 +1,30 @@
+/// @author Carlos Munoz Iglesias 
+/// @name navbar
+
+
 .navbar {
   overflow: hidden;
   background-color: $navbarColorBG;
+
+  a {
+    float: left;
+    font-size: 16px;
+    color: $navbarColorA;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  form{
+    float: right;
+    display: block;
+    color: $navbarColorForm;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: $navbarColorA;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-}
 
-.navbar form{
-  float: right;
-  display: block;
-  color: $navbarColorForm;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 .dropdown {
   float: left;

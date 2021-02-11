@@ -1,3 +1,7 @@
+/// @author Carlos Munoz Iglesias 
+/// @name variables
+
+@import "funcs";
 /* VARIABLES */
 
 $rightColumBG: #f1f1f1;
@@ -18,7 +22,7 @@ $navbarColorA: white;
 $navbarColorDropdown: white;
 $navbarColorDropdownA: white;
 $navbarColorForm: #f2f2f2;
-$navbarColorHover: rgb(0, 119, 255);
+$navbarColorHover: invert(rgb(0, 119, 255), 80%);
 
 $footerColor: black;
 $footerColorA: white;

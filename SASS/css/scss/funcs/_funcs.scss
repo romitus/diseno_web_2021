@@ -1,5 +1,20 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(1em + 1vw);
-    word-wrap: break-word;
+/// @author Carlos Munoz Iglesias 
+/// @name functions
+
+/// @example
+///   base 2 exponent 4 = 16
+///   
+
+
+@function pow($base, $exponent) {
+  $result: 1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
   }
+  @return $result;
+}
+
+@function invert($color, $amount: 100%) {
+  $inverse: change-color($color, $hue: hue($color) + 180);
+  @return mix($inverse, $color, $amount);
+}
